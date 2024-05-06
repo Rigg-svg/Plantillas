@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Index</title>
+<style>
+*{
+    margin: 0;
+}
+img{
+    object-fit: cover;
+}
+input{
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+input[type="submit"]{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(236, 142, 19);
+    min-height: 100vh;
+    min-width: 320px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 25px;
+}
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+</style>
+
+</head>
+<body>
+    <img sizes="(min-width: 1200px) 600px,
+    (min-width: 640px) 75vw,
+    500px"
+    srcset="IMG\idpets.svg 300w,
+    IMG\idpets.svg 600w, 
+    IMG\idpets.svg 900w,
+    IMG\idpets.svg 1200w"
+    src="IIMG\idpets.svg" alt="hello">
+
+    <img sizes="(min-width: 1200px) 600px,
+    (min-width: 640px) 50vw,
+    98vw"
+    srcset="IMG/hueso.svg 300w,
+    IMG/hueso.svg 600w,
+    IMG/hueso.svg 900w,
+    IMG/hueso.svg 1200w"
+    src="IMGs\hueso900.jpg" alt="hello">
+
+    <img sizes="(min-width: 1200px) 600px,
+    (min-width: 640px) 50vw,
+    98vw"
+    srcset="IMG\slogan.svg 300w,
+    IMG\slogan.svg 600w,
+    IMG\slogan.svg 900w,
+    IMG\slogan.svg 1200w"
+    src="IMG\slogan.svg" alt="hello">
+
+    <img sizes="(min-width: 1200px) 600px,
+    (min-width: 640px) 50vw,
+    98vw"
+    srcset="IMG\user.svg 300w,
+    IMG\user.svg 600w,
+    IMG\user.svg 900w,
+    IMG\user.svg 1200w"
+    src="IMG\user.svg" alt="hello">
+
+    <form action="">
+        <input type="text" placeholder="NOMBRE DE USUARIO" autofocus>
+        <input type="password" name="" id="" placeholder="CONTRASEÑA">
+        <h5><a href="">¿OLVIDO SU CONTRASEÑA?</a></h5>
+        <input type="submit" value="INGRESAR">
+    </form>
+
+    <h6>¿NO TIENES CUENTA? <span><a href="">¡REGISTRATE!</a></span></h6>
+</body>
+</html>
